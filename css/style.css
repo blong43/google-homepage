@@ -1,31 +1,57 @@
 
 div {
+	display: block;
 	position: relative;
 }
 
-#header {
+.header {
 	height: 50px;
 	background-color: red;
 }
 
-#center {
-	height: 825px;
-	background-color: yellow;
-	text-align: center;
-	vertical-align: center;
+.google-search {
+	margin-top: 145px;
 }
 
-#footer {
+.google-search img {
+	margin-bottom: 20px;
+}
+
+center {
+	display: block;
+	text-align: -webkit-center;
+}
+
+/*
+#center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	text-align: center;
+}
+*/
+.footer {
 	height: 50px;
 	background-color: green;
 }
 
-#search_bar {
+.search_bar {
 	width: 425px;
-	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 .button {
-	-webkit-appearance: none;
+	-webkit-appearance: textfield;
+	cursor: default;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
 }
